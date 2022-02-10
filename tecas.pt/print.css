@@ -1,0 +1,357 @@
+@media print {
+    * {
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+    *,
+    *:before,
+    *:after,
+    p:first-letter,
+    div:first-letter,
+    blockquote:first-letter,
+    li:first-letter,
+    p:first-line,
+    div:first-line,
+    blockquote:first-line,
+    li:first-line {
+      background: transparent !important;
+      box-shadow: none !important;
+      text-shadow: none !important; }
+    html {
+      font-size: 16px;
+      margin: 0;
+      padding: 0; }
+    body {
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      background: #fff !important;
+      color: #000 !important;
+      font-size: 1rem;
+      line-height: 1.5;
+      margin: 0 auto;
+      text-rendering: optimizeLegibility; }
+    p,
+    blockquote,
+    table,
+    ul,
+    ol,
+    dl {
+      margin-bottom: 1.5rem;
+      margin-top: 0; }
+    p:last-child,
+    ul:last-child,
+    ol:last-child {
+      margin-bottom: 0; }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: #000;
+      line-height: 1.2;
+      margin-bottom: 0.75rem;
+      margin-top: 0.75rem; }
+    a, a:visited {
+      color: #000;
+      text-decoration: underline;
+      word-wrap: break-word; }
+    table {
+      border-collapse: collapse; }
+    thead {
+      display: table-header-group; }
+    table,
+    th,
+    td {
+      border-bottom: 1px solid #000; }
+    td,
+    th {
+      padding: 8px 16px; }
+    code,
+    pre,
+    kbd {
+      border: 1px solid #bbb;
+      font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+      font-size: 85%; }
+    code,
+    kbd {
+      padding: 3px; }
+    pre {
+      margin-bottom: 1.5rem;
+      padding: 10px 12px; }
+      pre code,
+      pre kbd {
+        border: 0; }
+    blockquote {
+      border: 0;
+      border-left: 5px solid #bbb;
+      margin-left: 1px;
+      padding: 12px 1.5rem; }
+      blockquote:first-child {
+        margin-top: 0; }
+      blockquote p:last-child,
+      blockquote ul:last-child,
+      blockquote ol:last-child {
+        margin-bottom: 0; }
+      blockquote footer {
+        display: block;
+        font-size: 80%; }
+    img {
+      border: 0;
+      display: block;
+      max-width: 100% !important;
+      vertical-align: middle;
+      margin: 0; }
+    hr {
+      border: 0;
+      border-bottom: 2px solid #bbb;
+      height: 0;
+      margin: 2.25rem 0;
+      padding: 0; }
+    dt {
+      font-weight: bold; }
+    dd {
+      margin: 0;
+      margin-bottom: 0.75rem; }
+    abbr[title],
+    acronym[title] {
+      border: 0;
+      text-decoration: none; }
+    table,
+    blockquote,
+    pre,
+    code,
+    figure,
+    li,
+    hr,
+    ul,
+    ol,
+    a,
+    tr {
+      page-break-inside: avoid; }
+    h2,
+    h3,
+    h4,
+    p,
+    a {
+      orphans: 3;
+      widows: 3; }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      page-break-after: avoid;
+      page-break-inside: avoid; }
+    h1 + p,
+    h2 + p,
+    h3 + p {
+      page-break-before: avoid; }
+    img {
+      page-break-after: auto;
+      page-break-before: auto;
+      page-break-inside: avoid; }
+    pre {
+      white-space: pre-wrap !important;
+      word-wrap: break-word; }
+    table td[data-label="URL"] a[href^='http://']:after, table td[data-label="URL"] a[href^='https://']:after, table td[data-label="URL"] a[href^='ftp://']:after {
+      content: " (" attr(href) ")";
+      font-size: 80%;
+      display: block; }
+    abbr[title]:after,
+    acronym[title]:after {
+      content: " (" attr(title) ")"; }
+    .page-break,
+    .page-break-before {
+      page-break-before: always; }
+    .page-break-after {
+      page-break-after: always; }
+    .no-print {
+      display: none; }
+    a.no-reformat:after {
+      content: ''; }
+    abbr[title].no-reformat:after,
+    acronym[title].no-reformat:after {
+      content: ''; }
+    @font-face {
+      font-family: 'Klavika-Bold';
+      src: url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikaboldbold-webfont.eot?") format("eot"), url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikaboldbold-webfont.woff") format("woff"), url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikaboldbold-webfont.ttf") format("truetype"), url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikaboldbold-webfont.svg#webfontBUN34PZS") format("svg");
+      font-style: normal; }
+    @font-face {
+      font-family: 'Klavika-Medium-Plain';
+      src: url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikamedium-plain-webfont.eot?") format("eot"), url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikamedium-plain-webfont.woff") format("woff"), url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikamedium-plain-webfont.ttf") format("truetype"), url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikamedium-plain-webfont.svg#webfontTWPh10Er") format("svg");
+      font-style: normal; }
+    @font-face {
+      font-family: 'Klavika-Medium-Plain';
+      src: url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikamedium-italic-webfont.eot?") format("eot"), url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikamedium-italic-webfont.woff") format("woff"), url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikamedium-italic-webfont.ttf") format("truetype"), url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikamedium-italic-webfont.svg#webfontQyMG82IJ") format("svg");
+      font-style: italic; }
+    @font-face {
+      font-family: 'Klavika-Regular-Plain';
+      src: url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikaregular-plain-webfont.eot?") format("eot"), url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikaregular-plain-webfont.woff") format("woff"), url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikaregular-plain-webfont.ttf") format("truetype"), url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikaregular-plain-webfont.svg#webfontDvaJrdUe") format("svg");
+      font-style: normal; }
+    @font-face {
+      font-family: 'Klavika-Regular-Plain';
+      src: url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikaregular-italic-webfont.eot?") format("eot"), url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikaregular-italic-webfont.woff") format("woff"), url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikaregular-italic-webfont.ttf") format("truetype"), url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikaregular-italic-webfont.svg#webfontPhNFtUba") format("svg");
+      font-style: italic; }
+    @font-face {
+      font-family: 'Klavika-Light-Plain';
+      src: url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikalight-plain-webfont.eot?") format("eot"), url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikalight-plain-webfont.woff") format("woff"), url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikalight-plain-webfont.ttf") format("truetype"), url("//static.tecnico.ulisboa.pt/fonts/klavika/klavikalight-plain-webfont.svg#webfontpalXHmZY") format("svg");
+      font-style: normal; }
+    @page {
+      margin: 2cm; }
+    body {
+      font-family: "Source Sans Pro";
+      color: #000; }
+    body > *:not(main),
+    .image.preview,
+    .news-share,
+    .event-share,
+    .slider-nav,
+    .page-nav,
+    .next-page-suggestion,
+    .related-articles,
+    .form-nav,
+    .submit-message {
+      display: none; }
+    body > header,
+    img.image.is-loaded {
+      display: block; }
+    body > header .header-top-nav,
+    body > header .main-header {
+      display: none; }
+    header .logo-desktop {
+      max-width: 40%;
+      font-size: 0;
+      margin: 0 0 1cm; }
+    figure {
+      margin: 1cm 0; }
+    figure figcaption {
+      text-align: right; }
+    a {
+      color: #009DE0 !important; }
+    a[href$=".pdf"]:after {
+      content: " (PDF)"; }
+    a[href$=".zip"]:after {
+      content: " (ZIP)"; }
+    a[href$=".jpg"]:after {
+      content: " (JPG)"; }
+    a[href$=".png"]:after {
+      content: " (PNG)"; }
+    a[href$=".doc"]:after {
+      content: " (DOC)"; }
+    a[href$=".xls"]:after {
+      content: " (XLS)"; }
+    a[href$=".ppt"]:after {
+      content: " (Powerpoint File)"; }
+    a.category {
+      display: inline-block;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 7pt;
+      margin: 0;
+      padding: 2px 6px;
+      color: #FFF !important;
+      text-decoration: none;
+      border: 0;
+      z-index: 1;
+      -webkit-print-color-adjust: exact; }
+      a.category:hover {
+        border: 0;
+        border: 0; }
+    a.label-campus-community {
+      background: #009DE0; }
+    a.label-culture-sports {
+      background: #FF4981; }
+    a.label-science-technology {
+      background: #5856D6; }
+    a.label-events {
+      background: #00C4B5; }
+    a.label-gallery {
+      padding-left: 38px;
+      background-image: url("img/label-gallery.svg");
+      background-position: 14px center;
+      background-repeat: no-repeat; }
+    a.label-video {
+      padding-left: 28px;
+      background-image: url("img/label-video.svg");
+      background-position: 10px 50%;
+      background-size: 8px;
+      background-repeat: no-repeat; }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Klavika-Medium-Plain";
+      font-weight: normal;
+      color: #000 !important; }
+      h1 a,
+      h2 a,
+      h3 a,
+      h4 a,
+      h5 a,
+      h6 a {
+        color: #000 !important;
+        text-decoration: none; }
+    .blog-article a,
+    .card a {
+      color: #000;
+      text-decoration: none; }
+    .page-header-category h1,
+    .hero .page-header h2,
+    h1.home-title,
+    h1.page-title {
+      font-size: 32pt; }
+    h1 {
+      font-size: 23pt;
+      margin: 1cm 0 0.5cm; }
+    h2 {
+      font-size: 18pt; }
+    h3 {
+      font-size: 15pt; }
+    h4 {
+      font-size: 11pt; }
+    h5 {
+      font-size: 10pt; }
+    h6 {
+      font-size: 9pt; }
+    p {
+      color: #45555F; }
+    article .article-details,
+    article .caption-block {
+      color: #A9A9A9;
+      font-size: 9pt; }
+    .header-content-category {
+      margin-bottom: 0.5cm; }
+      .header-content-category span {
+        display: none; }
+      .header-content-category * {
+        margin: 0; }
+    ul,
+    ol {
+      padding-left: 0.5cm;
+      margin-bottom: 1cm !important; }
+      ul li,
+      ol li {
+        margin-bottom: 0.2cm; }
+    .separator,
+    .section-separator {
+      margin: 1.5cm 0;
+      border: 1px solid #DDD; }
+    .event-date time:before {
+      content: "Data: "; }
+      [lang="en-US"] .event-date time:before {
+        content: "Date: "; }
+    .event-venue address:before {
+      content: "Local: "; }
+      [lang="en-US"] .event-venue address:before {
+        content: "Venue: "; }
+    .publish-date,
+    .updated {
+      display: block; }
+    article.single .excerpt {
+      font-style: italic;
+      font-size: 1.6rem; } }
+  
