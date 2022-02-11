@@ -4307,7 +4307,7 @@ section[class*="bg"] {
 	background-color: #FFF;
 	box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
 	overflow: hidden;
-	min-height: 41rem
+	min-height: 50rem
 }
 
 .latest-articles.home .event a {
@@ -4333,7 +4333,7 @@ section[class*="bg"] {
 	padding: 0;
 	margin: 0;
 	display: -webkit-box;
-	-webkit-line-clamp: 5;
+	-webkit-line-clamp: 8;
 	-webkit-box-orient: vertical;
 	overflow: hidden;
 	text-overflow: ellipsis
@@ -4362,7 +4362,7 @@ section[class*="bg"] {
 
 @media (min-width: 992px) {
 	.latest-articles.home .event-title-block {
-		height: 130px
+		height: 150px
 	}
 }
 
@@ -9961,6 +9961,9 @@ figure .image {
 
 .hero figure .image {
 	object-position: center center
+}
+.hero figure .imagem_topo {
+	object-position: right top
 }
 
 ul.gmap-locations {
